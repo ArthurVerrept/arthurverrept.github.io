@@ -1,0 +1,8 @@
+/*css to center our canvas*/
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers sketch horizontally. */
+  justify-content: center;
+}
