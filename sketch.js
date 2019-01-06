@@ -55,7 +55,7 @@ function setup() {
   //loads images of billionaires from the images folder (with the same name as stored in data)
   //and stored locally into array in same location as corresponding billionaire
   for (var i = 0; i < 20; i++) {
-    img[i] = loadImage("images/" + data[i].name + ".jpg");
+    img[i] = loadImage("Images/" + data[i].name + ".jpg");
   }
   //loads images of country flags from the flags folder (with the same country as in data)
   //and stored locally into array in same location as corresponding billionaire
