@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- linking adobe typekit fonts -->
+        <link rel="stylesheet" href="https://use.typekit.net/qzg6idh.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Document</title>
+    </head>
+
+    
+<header>
+    <!-- nav div with id to be used in script.js -->
+    <div id="myNav" class="overlay">
+        <!-- making the div the whole width of the screen -->
+            <nav class="row twelve columns navbar">
+            <!-- yogun logo linking back to home -->
+                <a href="indexYogun.html"><p class="logo">Yogan</p></a>
+                <ul class="navigation">
+                <!-- unordered list for navbar links -->
+                    <a href="indexYogun.html"><img class="yogunLogoMenu" src="assets/yogun.svg" alt="yogun logo"></a>
+                    <a href="shop.html"><li class="navLinks first">Shop</li></a>
+                    <a href="catering.html"><li class="navLinks">Catering</li></a>
+                    <a href="vegan.html"><li class="navLinks last">Why Vegan?</li></a>
+                    <!-- icons to use on phone navigaion (portrait) instead of footer -->
+                    <li class="navLinks last"><img src="assets/favourite.svg" alt="Basket Icon" class="basket"></li>
+                    <li class="navIcon"><img class="phoneMenuFooter mailIcon" src="assets/gmail.svg" alt="Email link"></li>
+                    <li class="navIcon"><img class="phoneMenuFooter phoneIcon" src="assets/call.svg" alt="Phone number link"></li>
+                    <li class="navIcon"><img class="phoneMenuFooter locationIcon" src="assets/Location.svg" alt="Location link"></li>
+                </ul>
+                <hr>
+            </nav>
+        </div>
+</header>
+
+<body>
+    <!-- logo to be used on portrait smaller screens -->
+        <img class="cateringLogo" src="assets/cateringLogo.svg" alt="Catering page logo">
+        <!-- setting the body to be as wide as screen -->
+        <div class="row twelve columns mainBody"></div>
+        <!-- giving image 6 rows -->
+        <div class="row six columns">
+            <img class="weddingPhoto" src="assets/wedding.jpg" alt="wedding photo">
+        </div>
+
+        <!-- giving text six images -->
+
+        <div class="row six columns catering">
+            <!-- icon to be used on phones -->
+            <img class="hiddenIcon" src="assets/marriageIcon.svg" style="width:30vw; margin-left:auto; margin-right:auto; padding-bottom:4vw;" alt="marriage proposal icon">
+            <h2 class="cateringTitle">Need some healthy options for your wedding?</h2>
+            <p class="cateringText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque ac 
+                diam eget scelerisque. Donec ac ligula a enim porttitor aliquam sed nec diam. 
+                Aliquam erat volutpat. Cras tempus vel dui ut fringilla. Ut vel arcu eu libero 
+                gravida gravida. Aliquam quam lacus, iaculis eu facilisis nec, ullamcorper
+                sed purus. Nunc orci tortor, scelerisque id ultrices vitae, gravida feugiat quam.
+                Maecenas
+            </p>
+        </div>
+        <!-- more text below text above -->
+
+    
+        <div class="row six columns catering">
+            <!-- icon to be used on phones -->
+                <img class="hiddenIcon" src="assets/yogurtIcon.svg" style="width: 30vw; margin-left:auto; margin-right:auto; padding-bottom:4vw;" alt="pink yogurt icon">
+                <h2 class="cateringTitle">What We Offer</h2>
+                <p class="cateringText"> Duis eget enim lacus. Aliquam dignissim ac lorem et sodales. Donec vehicula, mauris id consequat tincidunt, turpis erat efficitur tortor, non vestibulum arcu ligula ut libero. Proin egestas magna purus, at pharetra felis ultricies nec. Donec finibus, odio sed dignissim blandit, augue quam suscipit odio, eu bibendum nulla eros in lacus. Donec justo quam, molestie quis urna ut, consectetur dictum turpis. Nunc in dignissim nulla. Suspendisse eros est, pulvinar quis nunc ut, auctor porttitor justo. Pellentesque eget felis mi. Proin nec ipsum sit amet ante congue euismod. Sed ac tempor dolor. Aenean odio lectus, tincidunt nec velit vel, sollicitudin lacinia tortor. Etiam tincidunt iaculis consectetur.
+                </p>
+        </div>
+        <!-- setting contact words to full width of screen to break up page -->
+        <div class="row twelve columns">
+                <h2 class="cateringContact">Get in Contact</h2>
+        </div>
+        
+
+        <form>
+            <!-- giving all input nine columns -->
+            <div class="row nine columns">
+                <div class="six columns">
+                    <input class="halfWidth" type="text" placeholder="name" id="nameInput">
+                </div>
+                <div class="six columns">
+                        <input class="halfWidth right" type="email" placeholder="test@mailbox.com" id="EmailInput">
+                </div>
+                <textarea class="fullWidth" placeholder="message" id="Message"></textarea>
+            </div>
+
+            <!-- giving button and check three columns -->
+            <div class="row three columns" style="margin-left:0;">
+                    <label class="copySend checkBox">
+                    <input class="copySend" type="checkbox">
+                    <span class="copySend">Send a copy to yourself</span>
+                    </label>
+                    <div class="row three columns shopItem1">
+                            <button class="buttonCatering">Submit</button>
+                    </div>                        
+            </div>
+        </form>
+    </div>
+        <!-- open and close images for phone burger menu -->
+            <img class='burgerOpen' onclick="openNav()" src="assets/burgerMenu.svg" alt="menu icon">
+            <img class='burgerClosed hidden' style="z-index: 1;"onclick="closeNav()" src="assets/burgerMenuClose.svg" alt="menu icon">
+            <script src="js/script.js"></script>
+    </body>
+
+    <footer>
+          <!-- setting footer to full screen width -->
+        <div class="row twelve columns footer">
+            <hr class="hrFooter">
+                  <!-- setting footer left elements to four columns -->
+                <div class="row four columns footerLeft">
+                <p class="footerTextLeft">Email: yogun@thebestyogurt.com
+                </p>
+                <p class="footerTextLeft">
+                    Tel: 07449666666
+                </p>
+            </div>
+            <!-- setting middle footer elements to four columns -->
+            <div class="row four columns footerMiddle">
+                <p class="footerTextMiddle">55 North Hill <br> PL4 8HB <br> Plymouth, Devon
+                </p>
+            </div>
+             <!-- setting right footer elements to four columns -->
+            <div class="row four columns footerDivIcon">
+                <img class="footerIcon" src="assets/instagram.svg" alt="instagram icon">
+                <img class="footerIcon" src="assets/facebook.svg" alt="facebook icon">
+                <img class="footerIcon" src="assets/twitter.svg" alt="twitter icon">
+            </div>
+        </div>
+    </footer>
+</html>
+
+
