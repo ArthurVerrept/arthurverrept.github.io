@@ -1,0 +1,1966 @@
+/* setting all heading fonts to futura */
+h1,h2,h3,h4,h5,h6{
+    font-family: futura-pt, sans-serif;
+}
+
+
+/* setting all links to underline on hover */
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* setting all links to no underline and setting animation duration */
+a{
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.3s ease;
+}
+
+
+/* setting the logo for landscape position and font */
+.logo{
+    font-family: poleno, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:3.125vw;
+    float: left;
+    margin-left: 5.573vw;
+    margin-top: 1.667vw;
+    margin-bottom: 0;
+    line-height: 100%;
+    color: #65433D;
+}
+
+/* hover scales up to signal its clickable */
+.logo:hover{
+    transform: scale(1.1)
+}
+
+
+/* setting footer */
+.footer{
+    margin-top:2vw;
+}
+
+/* setting left text of footer position */
+.footerTextLeft{
+    font-size:1vw;
+    margin-left:7vw;
+    margin-top:0.5vw;
+    margin-bottom:0vw;
+}
+
+/* setting middle text of footer position */
+.footerTextMiddle{
+    font-size:1vw;
+    text-align: center;
+}
+
+/* setting middle div of footer position */
+.footerMiddle{
+    margin-top:0.5vw;
+    margin-right:0; 
+    margin-left:0;
+}
+
+/* setting right div of footer position */
+.footerDivIcon{
+    padding-left:7vw;
+}
+
+/* setting footer icons position */
+.footerIcon{
+    width:3vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    color:#3B332E;
+} 
+
+
+.hiddenIcon{
+    display:none;
+}
+
+/* setting a class up to seperate sections of needed */
+.mainBody{
+    margin-top:7vw;
+}
+
+/* setting plain yogurt position */
+.yogurtPlainShop{
+    width:14.792vw;
+    align-content: center;
+    margin-left:5.5vw;
+    margin-top: -1vw;
+}
+
+/* setting blueberry yogurt position */
+.yogurtBlueShop{
+    width:15.188vw;
+    align-content: center;
+    margin-left:5vw;
+    margin-top: -1vw;
+}
+
+/* setting mango yogurt position */
+.yogurtMangoShop{
+    width:15.792vw;
+    align-content: center;
+    margin-left:5vw;
+    margin-top: -0.5vw;
+}
+
+/* setting yogurt and title div position */
+.shopItem{
+    margin-left:0;
+}
+
+/* setting yogurt title position and font */
+.yogurtShopBigText{
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    font-style: normal;
+    line-height: 100%;
+    margin-left:4vw;
+}
+
+/* setting yogurt info position */
+.shopInfo{
+    margin-top:3vw;
+    margin-left:0;
+}
+
+/* setting buttons to have no border */
+button{
+    border: none;
+}
+
+
+/* giving the add to cart button a border and setting location and font */
+.addToCart{
+    border: 2px solid #707070;
+    border-radius: 5px;
+    margin-top: 6vw;
+    margin-left: 5vw;
+    font-family: futura-pt, sans-serif;
+    font-weight: 200;
+    font-size: 1.2vw;
+    font-style: normal;
+}
+
+/* making font bolder on hover */
+.addToCart:hover{
+    font-weight: 400;
+}
+
+/* setting the ingredients and  */
+.shopInfoTitle{
+    line-height: 10px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    display: inline;
+    color: #3B332E;
+    opacity: 0.5;
+    margin-right: 2vw;
+}
+
+/* creating underline class to be used in javascript */
+.underLine{
+    text-decoration: underline;
+}
+
+/* setting opacity of active to full */
+.active{
+    opacity: 1;
+}
+
+/* setting information text position */
+.shopInfoText{
+    font-size:1vw;
+    margin-top:1.5vw;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    margin-left: 1.5vw;
+}
+
+/* hidden class to be called by javascript */
+.hidden{
+    display:none;
+}
+
+/* class to show information to be called by javascript */
+.unHidden{
+    display:block;
+}
+
+/* setting wedding photo initial float and width */
+.weddingPhoto{
+    float:right;
+    width:40.708vw;
+}
+
+/* setting catering text div location */
+.catering{
+    padding-right: 10vw;
+    margin-left:0vw;
+    margin-top:-0.2vw;
+}
+
+/* setting text for both catering title and contact title */
+.cateringTitle, .cateringContact{
+    color: #3B332E;
+    margin-left: -1.7vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05vw;
+}
+
+/* setting catering contact margins and location */
+.cateringContact{
+    margin-top: 3vw;
+    margin-left:44vw;
+}
+
+/* setting catering text margins */
+.cateringText{
+    margin-top:1vw;
+    margin-left:-1.5vw;
+}
+
+/* setting inputs and textarea margins */
+input, textarea{
+    margin-top:2vw;
+    margin-left:8vw;
+}
+
+/* setting tick margins */
+.copySend{
+    margin-top:5.5vw;
+    margin-left:0;
+}
+
+/* setting send form button location and fonts */
+.buttonCatering{
+    border: 2px solid #707070;
+    border-radius: 5px;
+    margin-top: 2vw;
+    margin-left: 0vw;
+    font-family: futura-pt, sans-serif;
+    font-weight: 200;
+    font-size: 1.2vw;
+    font-style: normal;
+}
+
+/* half width form input section width */
+.halfWidth{
+    width:30vw;
+}
+
+/* half width (right) form input section margin */
+.right{
+    margin-left: 2vw;
+}
+
+/* setting full width for message */
+.fullWidth{
+    width:62.5vw;
+    height:10vw;
+}
+
+/* setting cow photo margin and width */
+.cowPhoto{
+    width:26.354vw;
+    padding-left:7.604vw;
+    margin-top:2vw;
+}
+
+/* setting the vegan titles position, font and keeping text in one line */
+.veganTitle{
+    margin-top:3vw;
+    margin-bottom:4vw;
+    font-size: 3.2vw;
+    margin-left:-1.5vw;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: 0.05vw;
+}
+
+/* setting vegan text position */
+.veganText{
+    margin-right:10.313vw;
+    margin-left:2vw;
+    font-size: 1vw;
+    margin-top:2vw;
+}
+
+/* setting second half of vegan picture on other side */
+.veganTitleRev{
+    margin-top:4vw;
+    font-size: 3.2vw;
+    margin-bottom:4vw;
+    margin-left:8.0vw;
+    font-weight: 200;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: 0.05vw;
+}
+
+/* second set of vegan text other side */
+.veganTextRev{
+    margin-left:10.313vw;
+    margin-right:2vw;
+    font-size: 1vw;
+    margin-top:2vw;
+    text-align: right;
+}
+
+.phoneMenuFooter{
+    display: none;
+}
+
+ /* portrait media queries done for personal navbar */
+@media (orientation: portrait) {
+
+    /* cow photo removed */
+    .cowPhoto{
+        display:none;
+    }
+
+    /* taking off margin for for icons */
+    .veganSix{
+        margin:0; 
+    }
+
+    /* getting rid of seperation to allow text to be next to each other */
+    .seperator{
+        display:none;
+    }
+
+    /* showing hidden icons */
+    .hiddenIcon{
+        display:block;
+    }
+
+    /* hiding footer */
+    .footer{
+        display:none;
+    }
+
+    .phoneMenuFooter{
+        display:block;
+    }
+
+    /* changing position for first screen sizes */
+    .cowPhoto{
+        margin-top:5vw;
+    }
+
+    .veganTitle, .veganTitleRev{
+        margin-top:0vw;
+        margin-bottom:1vw;
+        text-align: center;
+        margin-left:0;
+    }   
+
+
+    .farmer{
+        margin-top:7vw;
+    }
+
+    .veganText, .veganTextRev{
+        /* changing font size for portrait */
+        font-size:1.5vw;
+        margin:0;
+        text-align: left;
+        padding: 3vw;
+        margin-bottom:30vw;
+    }
+
+    /* disabling wedding photo */
+    .weddingPhoto{
+        display: none;
+    }
+
+    
+    .cateringTitle, .cateringContact{
+        font-size:3.2vw;
+    }
+
+    .cateringContact{
+        margin-left:40.5vw;
+    }
+
+    .catering{
+        padding-left:1vw;
+        padding-right:1vw;
+        margin-left:2vw;
+    }
+    
+    .halfWidth{
+        width:41.5vw;
+        margin-left: 5vw;
+    }
+
+    .fullWidth{
+        margin-left: 5vw;
+        width:90vw
+    }
+
+    .right{
+        margin-left: 15vw;
+    }
+
+    .copySend{
+        margin-right:0;
+    }
+
+    .checkBox{
+        margin-top:20vw;
+        margin-left:-33vw;
+    }
+
+    .buttonCatering{
+        margin-left: -31.5vw;
+        font-size:3vw;
+        padding-top:0vw;
+        padding-bottom:5vw;
+    }
+
+    .mainBody{
+        margin-top: 2vw;
+    }
+
+    .catering{
+        margin-left:0;
+        margin-top:2vw;
+    }
+
+    .cateringTitle{
+        margin-left:3vw;
+    }
+
+    .cateringText{
+        margin-left:3.3vw;
+        margin-top:1vw;
+        font-size:1.5vw;
+    }
+
+    input, textarea{
+        margin-top:2vw;
+        margin-left:3vw;
+        margin-right:3vw;
+    }
+
+    .shopLogo, .cateringLogo, .veganLogo{
+        margin-top:4vw;
+        margin-left:10vw;
+        width:80vw;
+    }
+
+    .yogurtPlainShop{
+        margin-left: 2vw;
+        margin-bottom:2vw;
+        width:35.792vw;
+    }
+
+    .yogurtBlueShop{
+        margin-left: 2vw;
+        width:35.188vw;
+        margin-bottom:2vw;
+    }
+
+    .yogurtMangoShop{
+        margin-left: 2vw;
+        width:35.792vw;
+        margin-bottom:2vw;
+    }
+
+    .yogurtShopBigText{
+        font-weight: 300;
+        font-size: 5vw;
+        margin-left:12vw;
+    }
+
+    .shopInfo{
+        margin-top:6.5vw;
+        margin-left:11vw;
+    }
+
+    .addToCart{
+        border-radius: 5px;
+        margin-top: 0vw;
+        margin-left: 14vw;
+        font-weight: 400;
+        font-size: 1.8vw;
+        padding-top:1vw;
+        padding-bottom:4vw;
+    }
+
+    .addToCart:hover{
+        font-weight: 400;
+    }
+
+
+    .shopInfoTitle{
+        font-size: 3.5vw;
+    }
+
+    .shopInfoText{
+        font-size:2vw;
+        margin-left: 3.5vw;
+    }
+
+    /* setting up burger menu icons */
+    .burgerOpen{
+        position: fixed;
+    }
+
+    /* setting to fixed to keep in same place always */
+    .burgerClosed{
+        position: fixed;
+    }
+
+    /*  */
+    .footer{
+        margin-bottom:40vw;
+    }
+    
+    /* hiding navbar elements no longer needed */
+    hr, .logo {
+        display:none;
+    }
+    
+    /* setting navigation links for portrait screens */
+    .navigation {
+        /* displaying them not inline */
+        display: block;
+        color: #3B332E;
+        position: relative;
+        text-align: center;
+        margin-top: 1.5vh; 
+      }
+
+      /* new yogun logo for menu */
+      .yogunLogoMenu{
+          width:60vw;
+      }
+
+    /* setting the overlay setting for portrait navigation */
+    .overlay {
+        height: 0;
+        width: 100%;
+        position: fixed; 
+        /* Sit on top of all other elemens */
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: rgb(255,255,255); 
+        /* Disable horizontal scroll */
+        overflow-x: hidden; 
+        /* 0.2 second animation of slide in of navigation */
+        transition: 0.2s; 
+      }
+
+      /* changing link text properties */
+      .navLinks{
+        font-family: futura-pt, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 5vh;
+        margin-bottom: 15vh;
+        list-style-type: none !important;
+        margin-right:3.646vw;
+        color: #3B332E;
+        text-transform: uppercase;
+    }
+
+
+    /* setting nav icons */
+    .phoneIcon, .mailIcon, .locationIcon{
+        width:9vw !important;
+        margin-top:-4vw;
+    }
+
+    .phoneIcon{
+        margin-bottom: 6vw;
+        margin-left: 9vw;
+    }
+
+    .mailIcon{
+        margin-left: -16vw;
+    }
+
+    .locationIcon{
+        margin-left: -3vw;
+    }
+
+    /* nav icon div */
+    .navIcon{
+        display: inline !important;
+        width:3vw;
+        position: absolute;
+        margin-left:-3vw; 
+    }
+
+    /* giving top link top margin */
+    .first{
+        margin-top:15vw;
+    }
+
+    /* changing cart size */
+    .basket{
+        width: 8vh;
+    }
+    
+    /* removing bullet points from list */
+    li{
+        list-style-type: none;
+    }
+
+    @media (max-width: 575.98px) { 
+
+        .veganText{
+            margin-bottom:4vw;
+        }
+
+        /* adding margin bottom for white space to get enable scroll over burger menu */
+        .bottomShop{
+            margin-bottom: 40vw;
+        }
+
+        /* changing location and center text */
+        .veganText, .veganTextRev{
+            text-align:left;
+            margin-right: 3vw;
+            margin-left: 3vw;
+            font-size: 4vw;
+            margin-top:4vw;
+        }
+
+        /* setting vegan text */
+        .veganTitle{
+            margin-left:1vw;
+            font-size: 8vw;
+            text-align: center;
+            white-space: normal;
+        }
+
+
+        /* moving elements */
+        .veganTitleRev{
+            font-size: 8vw;
+            margin-left:-1vw;
+            margin-top:0vw;
+        }
+
+        .veganTextRev{
+            margin-bottom:40vw;
+        }
+
+        .cateringLogo{
+            width:60vw;
+            margin-left:20vw;
+        }
+
+        .cateringText{
+            font-size: 4vw;
+        }
+
+        .cateringTitle{
+            font-size: 8vw;
+            text-align: center;
+        }
+        
+        .cateringContact{
+            font-size: 4vw;
+            margin-left: 39vw;
+        }
+
+        .checkBox{
+            margin-top:-2vw;
+            margin-left: 6vw;
+        } 
+
+        .buttonCatering{
+            margin-top:2vw;
+            margin-bottom:20vw;
+            margin-left: 6vw;
+            font-size: 4vw;
+            padding-top: 1vw;
+            padding-bottom: 3vw;
+        }
+
+        /* setting smaller form inputs to full width of screen */
+        .halfWidth{
+            width:90vw;
+        }
+
+        .right{
+            margin-left:5vw;
+        }
+
+        .shopLogo{
+            margin-top:4vw;
+            margin-left:30vw;
+            width:40vw;
+        }
+    
+        .yogurtPlainShop{
+            margin-bottom:-4vw;
+            margin-left: 15vw;
+            margin-bottom:3vw;
+            width:70vw;
+        }
+    
+        .yogurtBlueShop{
+            margin-left: 15vw;
+            width:70vw;
+            margin-bottom:3vw;
+        }
+    
+        .yogurtMangoShop{
+            margin-left: 15vw;
+            width:70vw;
+            margin-bottom:3vw;
+        }
+    
+        .yogurtShopBigText{
+            font-weight: 300;
+            font-size: 10vw;
+            margin-left:0;
+            margin-top:2vw;
+        }
+    
+        .shopInfo{
+            margin-top:-5vw;
+            margin-left:0;
+        }
+    
+        .addToCart{
+            border-radius: 5px;
+            margin-top: 0vw;
+            margin-left: 30vw;
+            font-weight: 400;
+            font-size: 4vw;
+            margin-bottom: 15vw;
+        }
+    
+        .shopInfoTitleButtons{
+            margin-top:6.5vw;
+            margin-left:11vw;
+        }
+        .shopInfoTitle{
+            font-size: 6vw;
+        }
+    
+        .shopInfoText{
+            padding-left:10vw;
+            padding-right:10vw;
+            text-align: center;
+            font-size:4vw;
+            margin-left: 0vw;
+            margin-top:0;
+            margin-bottom:3.5vw;
+        }
+
+         .locallySourced{
+            margin-left: 19vw;
+            width:65vw;
+        }
+        
+        /* setting recycle landing page text size and location*/
+        .recycleSolo{
+            width: 30vw;
+            margin-left: 37vw;
+            margin-top:70vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        
+        /* removing image with all text for smaller screen */
+        .imageMid{
+            display:none;
+        }
+
+        /* changin location */
+        .topSVG{
+            height: 15vw;
+            width: 100.458vw;
+            margin-top:3.926vw;
+            margin-left:-1vw;
+            display: block;
+        }
+
+        /* removing bottom text */
+        .bottomSVG{
+            display: none;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+        /* increasing size of plain */
+        .plain{
+            margin-left: 6vw;
+            width: 90.271vw;
+            margin-top:10.889vw;
+        }
+    
+        /* hiding other yogurts when screen is too narrow */
+
+        .blue{
+            display: none;
+        }
+
+        .mango{
+            display:none;
+        }
+
+        .burgerOpen{
+            bottom: 7vh;
+            right: 7vh;
+            width: 70px;
+        }
+
+        .burgerClosed{
+            bottom: 7vh;
+            right: 7vh;
+            width: 70px;
+        }
+
+        .yogunLogo{
+            margin-top:3vw;
+            margin-left:20vw;
+            width:60vw;
+        }
+
+        /* changin icon size for smaller screens */
+        .phoneIcon, .mailIcon, .locationIcon{
+            width:15vw !important;
+            margin-bottom:30vw;
+        }
+
+        .phoneIcon{
+            margin-bottom: 6vw;
+            margin-left: 12vw;
+        }
+    
+        .mailIcon{
+            margin-left: -24vw;
+        }
+    
+        .locationIcon{
+            margin-left: -5vw;
+        }
+    
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+
+
+        /* resizing and moving elements for this breakpoint */
+        .bottomShop{
+            margin-bottom: 40vw;
+        }
+
+        .cateringText{
+            font-size: 2vw;
+        }
+
+        .cateringTitle, .cateringContact{
+            font-size: 4vw;
+        }
+
+        .cateringContact{
+            margin-left: 39vw;
+        }
+
+        .checkBox{
+            margin-left: -39vw;
+        }
+
+        .buttonCatering{
+            margin-left: -33vw;
+        }
+
+        .locallySourced{
+            margin-left: 25vw;
+            width:50vw;
+        }
+        
+        /* changin recycle text size */
+        .recycleSolo{
+            width: 30vw;
+            margin: auto;
+            margin-top:60vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+        
+        /* hiding footer */
+        .footer{
+            display:none;
+        }
+
+        /* hiding mid image to be replaced by new layout */
+        .imageMid{
+            display:none;
+        }
+
+        /* changin sizes */
+        .topSVG{
+            height: 10vw;
+            width: 65.458vw;
+            margin-top:0;
+            margin-left:15.671vw;
+            display: block;
+        }
+
+
+        /* removing bottom svg */
+        .bottomSVG{
+            display: none;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 12vw;
+            width: 75.271vw;
+            margin-top:10.889vw;
+        }
+
+        .blue{
+            display: none;
+        }
+
+        .mango{
+            display:none;
+        }
+
+        .burgerOpen{
+            bottom: 9vh;
+            right: 7vh;
+            width: 100px;
+        }
+
+        .burgerClosed{
+            bottom: 9vh;
+            right: 7vh;
+            width: 100px;
+        }
+
+        .yogunLogo{
+            margin-top:3vw;
+            margin-left:23vw;
+            width:60vw;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+        /* as screens get smaller less elements are shown */
+        .bottomShop{
+            margin-bottom: 20vw;
+        }
+
+        .cateringText{
+            font-size:1.9vw;
+        }
+
+        .cateringTitle, .cateringContact{
+            font-size:3.5vw;
+        }
+
+        .locallySourced{
+            margin-left: 25vw;
+            width:50vw;
+        }
+        
+        .recycleSolo{
+            width: 35vw;
+            margin: auto;
+            margin-top:57vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .footer{
+            display:none;
+        }
+
+        .imageMid{
+            display:none;
+        }
+
+        .topSVG{
+            height: 10vw;
+            width: 65.458vw;
+            margin-top:3.926vw;
+            margin-left:15.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            display: none;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 15vw;
+            width: 70.271vw;
+            margin-top:10.889vw;
+        }
+
+        .blue{
+            display: none;
+        }
+
+        .mango{
+            display:none;
+        }
+        .burgerOpen{
+            bottom: 9vh;
+            right: 7vh;
+            width: 100px;
+        }
+
+        .burgerClosed{
+            bottom: 9vh;
+            right: 7vh;
+            width: 100px;
+        }
+
+        .yogunLogo{
+            margin-top:2vw;
+            margin-left:20vw;
+            width:60vw;
+        }
+    }
+
+    @media (min-width: 992px) { 
+        .bottomShop{
+            margin-bottom: 20vw;
+        }
+
+        .imageMid{
+            width: 100%;
+            margin: auto;
+            margin-top:-5vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 8vw;
+            width: 60.458vw;
+            margin-top:1.926vw;
+            margin-left:19.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:5vw;
+            width:60.458vw;
+            margin-left:19.6vw;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 30vw;
+            width: 40.271vw;
+            margin-top:17.889vw;
+        }
+
+        .blue{
+            margin-left:37.490vw;
+            width:55.677vw;
+            margin-top:4.889vw;
+        }
+
+        .mango{
+            margin-left:6vw;
+            width:55.677vw;
+            margin-top:4.889vw;
+        }
+
+        .burgerOpen{
+            bottom: 9vh;
+            right: 7vh;
+            width: 12vw;
+        }
+
+        .burgerClosed{
+            bottom: 9vh;
+            right: 7vh;
+            width: 12vw;
+        }
+
+        .recycleSolo{
+            display: none;
+        }
+
+        /* hiding locally sourced text when large enough for image to come back */
+
+        .locallySourced{
+            display:none;
+        }
+
+        .yogunLogo{
+            margin-top:3vw;
+            margin-left:36vw;
+            width:30vw;
+        }
+
+        .yogunLogo{
+            margin-top:1.5vw;
+            margin-left:35vw;
+            width:30vw;
+        }
+
+        .yogunLogoMenu{
+            width:30vw;
+        }
+    }
+}
+
+
+
+@media (orientation: landscape) {
+
+    /* moving top text and photo under navbar */
+    .cowPhoto, .veganSix{
+        margin-top:8.5vw;
+    }
+    /* moving text up for lower text vegan page */
+    .lower{
+        margin-top:0;
+    }
+
+    /* showing wedding photo */
+    .weddingPhoto{
+        display: block;
+        margin-right:4vw;
+    } 
+    
+    /* hiding phone elements */
+    .burgerClosed, .burgerOpen, .recycleSolo, .locallySourced, .yogunLogo, .yogunLogoMenu, .shopLogo, .cateringLogo, .veganLogo{
+        display: none;
+    }
+
+
+    .catering{
+        padding:0;
+        padding-left:4vw;
+        padding-right:4vw;
+
+    }
+
+    .cateringTitle{
+        margin-left:0;
+        font-size: 2.5vw;
+        margin-bottom: 0.2vw;
+    }
+
+    .cateringContact{
+        font-size: 2.5vw;
+    }
+
+    .cateringText{
+        margin-left:0;
+        font-size:1.5vw;
+    }
+
+    .buttonCatering{
+        margin-top:1vw;
+        font-size:2vw;
+    }
+
+    .copySend{
+        margin-top:5vw;
+        font-size:1.4vw;
+    }
+
+    /* setting navbar setting and animation */
+    .navbar{
+        transition: all 0.2s ease-in-out;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    
+    /* setting nav link div settings */
+    .navigation{
+        text-align: right;
+        list-style-type: none;
+        margin-right:4.167vw;
+        margin-top: 1.354vw;
+        margin-bottom:0;
+        padding-right: 0;
+    }
+    
+    /* setting font options of actual links */
+    .navLinks{
+        display: inline;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.188vw;
+        margin-right:3.646vw;
+        color: #3B332E;
+    }
+    
+    /* setting cart icon */
+    .basket{
+        height: 2.5vw;
+        line-height: 100%;
+        margin-bottom: -0.6vw;
+    }
+    
+    
+    nav{
+        position: relative;
+    }
+    
+    /* setting all  */
+    hr{
+        margin-bottom:0vw;
+        position: relative;
+        margin-top:6px;
+        margin-right: 5.208vw;
+        margin-left: 5.208vw;
+        color: #3B332E !important;
+        background-color: #3B332E !important;
+    }
+    
+    
+    .hrShop{
+        margin-bottom:1vw;
+    }
+    
+    .hrFooter{
+        margin-bottom:1vw;
+        margin-top:0vw;
+    }
+
+    @media (min-width: 0px) and (max-width: 575.98px) { 
+
+        /* smaller screens less is shown */
+
+        .cowPhoto{
+            display: none;
+        }
+
+        .veganTitle{
+            margin-left:29vw
+        }
+
+        .veganTitleRev{
+            text-align:left;
+            margin-left:35vw;
+        }
+
+        .veganTextRev, .veganText{
+            text-align:left;
+            font-size:2vw;
+            margin-left:12vw;
+            margin-right:13vw;
+        }
+
+        .logo{
+            margin-top:3vw;
+        }
+
+        .weddingPhoto{
+            display: none;
+        }
+
+        .footer{
+            display:inline;
+        }
+
+        .footerLeft{
+            margin-top:0.5vw;
+        }
+
+        .footerLeft{
+            width:30vw;
+        }
+
+        .footerMiddle{
+            width:30vw;
+        }
+
+        .footerDivIcon{
+            width:30vw;
+        }
+
+        .catering{
+            padding-left:8vw;
+        }
+        
+        .cateringTitle{
+            margin-left:-2vw;
+            font-size:3.4vw;
+        }
+        
+        .cateringText{
+            font-size:2vw;
+            margin-left:-2vw;
+            margin-right:2vw;
+        }
+        
+        input, textarea{
+            margin-top:2vw;
+        }
+        
+        .checkBox{
+            margin-top:0;
+            margin-left:11vw;
+        }
+
+        .copySend{
+            font-size: 2vw;
+        }
+        
+        .buttonCatering{
+            margin-top: 2vw;
+            margin-left: 10vw;
+            width:80vw;
+            font-size: 3vw;
+            font-weight: 600;
+            }
+        
+        .halfWidth{
+            width:80vw;
+            margin-left:10vw;
+        }
+        
+        .right{
+            margin-left: 10vw;
+        }
+        
+        .fullWidth{
+            width:80vw;
+            height:10vw;
+            margin-left: 10vw;
+        }
+
+        .shopItem{
+            width:30vw;
+        }
+
+        .shopInfo{
+            width: 70vw;
+        }
+
+        .shopInfoTitle{
+            font-size:3vw;
+            margin-left:-4vw;
+        }
+
+        .shopInfoText{
+            font-size: 1.5vw;
+            margin-bottom: 1vw;
+        }
+
+        .yogurtShopBigText{
+            font-size:4vw;
+            margin-left:0vw;
+            margin-bottom: 2vw;
+            margin-top: 2vw;
+        }
+        
+        .yogurtPlainShop, .yogurtBlueShop, .yogurtMangoShop{
+            width:20vw;
+        }
+    
+        .addToCart{
+            margin:0;
+            font-size:3vw;
+            margin-left:-1.5vw;
+            transform: scale(0.7);
+            padding-left: 1vw;
+            padding-right: 1vw;
+        }
+
+        .imageMid{
+            margin-top:-3vw;
+            width: 75.573vw;
+            margin-left: 11vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 6vw;
+            width: 41.458vw;
+            margin-top:9.926vw;
+            margin-left:28.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:5.5vw;
+            width:50.458vw;
+            margin-top:35.926vw;
+            margin-left:25.271vw;
+            display: block;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 34vw;
+            width: 30.271vw;
+            margin-top:13.889vw;
+        }
+
+        .blue{
+            margin-left:37.490vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+
+        .mango{
+            margin-left:16vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {  
+
+        .cowPhoto{
+            margin-top:4vw;
+        }
+
+
+        .weddingPhoto{
+            display: none;
+        }
+
+
+        .catering{
+            padding-left:8vw;
+        }   
+
+        .buttonCatering{
+            font-size: 2.2vw;
+        }
+
+        .shopInfoText{
+            font-size:1.3vw;
+            margin-top: 0vw;
+            margin-left: 3.8vw;
+            }
+    
+            .shopInfoTitle{
+                font-size: 2.5;
+            }
+    
+            .addToCart{
+                font-size:1.9vw;
+                padding-left: 2vw;
+                padding-right: 2vw;
+            }
+    
+            .imageMid{
+                margin-top:-3vw;
+                width: 75.573vw;
+                margin-left: 11vw;
+                display: block;
+                position: relative;
+                z-index: -1;
+            }
+    
+            .topSVG{
+                height: 6vw;
+                width: 41.458vw;
+                margin-top:9.926vw;
+                margin-left:28.671vw;
+                display: block;
+            }
+    
+            .bottomSVG{
+                height:5.5vw;
+                width:50.458vw;
+                margin-top:35.926vw;
+                margin-left:25.271vw;
+                display: block;
+            }
+    
+            .yogurt{
+                position: absolute;
+            }
+    
+    
+            .plain{
+                margin-left: 34vw;
+                width: 30.271vw;
+                margin-top:13.889vw;
+            }
+    
+            .blue{
+                margin-left:37.490vw;
+                width:45.677vw;
+                margin-top:1.889vw;
+            }
+    
+            .mango{
+                margin-left:16vw;
+                width:45.677vw;
+                margin-top:1.889vw;
+            }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+        /* using object fit to crop images as sizes change */
+        .cowPhoto{
+            margin-top: 1vw;
+            width:26.354vw;
+            height:26.354vw;
+            object-fit: cover;
+        }
+
+        .veganTitle{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-left:-3vw;
+        }
+
+        .veganText{
+            margin:0;
+            margin-left:-3vw;
+            padding-right: 5vw;
+
+        }
+
+        .veganTitleRev{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-right:-30vw;
+        }
+
+        .veganTextRev{
+            margin:0;
+            margin-right:-6vw;
+            padding-left: 7vw;
+        }
+
+
+        .weddingPhoto{
+            width:30vw;
+            height:52vw;
+            margin-right:15vw;
+            object-fit: cover;
+        }  
+
+        .catering{
+            padding:0;
+            padding-left:0vw;
+            margin-left:-10vw;
+        }
+
+        .shopInfoText{
+        font-size:1.3vw;
+        margin-top: 0vw;
+        margin-left: 3.8vw;
+        }
+
+        .shopInfoTitle{
+            font-size: 2.5;
+        }
+
+        .addToCart{
+            font-size:1.9vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+        }
+
+        .imageMid{
+            margin-top:-3vw;
+            width: 75.573vw;
+            margin-left: 11vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 6vw;
+            width: 41.458vw;
+            margin-top:9.926vw;
+            margin-left:28.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:5.5vw;
+            width:50.458vw;
+            margin-top:35.926vw;
+            margin-left:25.271vw;
+            display: block;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 34vw;
+            width: 30.271vw;
+            margin-top:13.889vw;
+        }
+
+        .blue{
+            margin-left:37.490vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+
+        .mango{
+            margin-left:16vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+        .cowPhoto{
+            margin-top: 1vw;
+            width:26.354vw;
+            height:26.354vw;
+            object-fit: cover;
+        }
+
+        .veganTitle{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-left:-3vw;
+        }
+
+        .veganText{
+            margin:0;
+            margin-left:-3vw;
+            padding-right: 5vw;
+
+        }
+
+        .veganTitleRev{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-right:-30vw;
+        }
+
+        .veganTextRev{
+            margin:0;
+            margin-right:-6vw;
+            padding-left: 7vw;
+        }
+
+        .weddingPhoto{
+            width:37vw;
+            height:49vw;
+            margin-right:5vw;
+            object-fit: cover;
+        }  
+        
+        .catering{
+            padding:0;
+            padding-right: 8vw;
+        }
+
+        .cateringTitle{
+            margin-left:0;
+            font-size:2.5vw;
+        }
+        
+        .cateringText{
+            margin-left:0;
+            font-size:1.3vw;
+        }
+
+        .imageMid{
+            margin-top:-3vw;
+            width: 75.573vw;
+            margin-left: 11vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 6vw;
+            width: 41.458vw;
+            margin-top:9.926vw;
+            margin-left:28.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:5.5vw;
+            width:50.458vw;
+            margin-top:35.926vw;
+            margin-left:25.271vw;
+            display: block;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 34vw;
+            width: 30.271vw;
+            margin-top:13.889vw;
+        }
+
+        .blue{
+            margin-left:37.490vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+
+        .mango{
+            margin-left:16vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+
+    }
+
+    @media (min-width: 1200px) and (max-width: 1919.98px) {
+
+        .cowPhoto{
+            margin-top: 1vw;
+            width:26.354vw;
+            height:26.354vw;
+            object-fit: cover;
+        }
+
+        .veganTitle{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-left:-3vw;
+        }
+
+        .veganText{
+            margin:0;
+            margin-left:-3vw;
+            padding-right: 5vw;
+
+        }
+
+        .veganTitleRev{
+            margin:0;
+            margin-top:2vw;
+            margin-bottom: 2vw;
+            margin-right:-30vw;
+        }
+
+        .veganTextRev{
+            margin:0;
+            margin-right:-6vw;
+            padding-left: 7vw;
+        }
+
+        .weddingPhoto{
+            width:40vw;
+            height:35vw;
+            margin-right:5vw;
+            object-fit: cover;
+        }  
+
+        .catering{
+            padding-left: 0vw;
+            padding-right: 7vw;
+        }
+
+        .cateringTitle{
+            font-size: 2vw;
+            margin-bottom: 0.2vw;
+        }
+
+        .cateringText{
+            font-size:1.1vw;
+        }
+
+        .buttonCatering{
+            font-size:1.2vw;
+        }
+
+        .imageMid{
+            margin-top:-3vw;
+            width: 75.573vw;
+            margin-left: 11vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 6vw;
+            width: 41.458vw;
+            margin-top:9.926vw;
+            margin-left:28.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:5.5vw;
+            width:50.458vw;
+            margin-top:35.926vw;
+            margin-left:25.271vw;
+            display: block;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 34vw;
+            width: 30.271vw;
+            margin-top:13.889vw;
+        }
+
+        .blue{
+            margin-left:37.490vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+
+        .mango{
+            margin-left:16vw;
+            width:45.677vw;
+            margin-top:1.889vw;
+        }
+        
+    }
+
+    @media (min-width: 1920px){
+
+        .weddingPhoto{
+            display: block;
+            margin-right:4vw;
+        }  
+
+        .catering{
+            padding-left: 0;
+        }
+
+        .cateringTitle{
+            font-size: 2vw;
+            margin-bottom: 0.2vw;
+        }
+
+        .cateringText{
+            font-size:1vw;
+        }
+
+        .buttonCatering{
+            font-size:1.2vw;
+            margin-left:-1vw;
+        }
+
+        .copySend{
+            margin-top:5.5vw;
+        }
+        
+        .imageMid{
+            margin-top:-3vw;
+            width: 55.573vw;
+            margin-left: 21vw;
+            display: block;
+            position: relative;
+            z-index: -1;
+        }
+
+        .topSVG{
+            height: 5vw;
+            width:31.458vw;
+            margin-top:9.926vw;
+            margin-left:33.671vw;
+            display: block;
+        }
+
+        .bottomSVG{
+            height:4vw;
+            width:39.458vw;
+            margin-top:35.926vw;
+            margin-left:30.271vw;
+            display: block;
+        }
+
+        .yogurt{
+            position: absolute;
+        }
+
+
+        .plain{
+            margin-left: 37.656vw;
+            margin-right: 38.073vw;
+            width: 24.271vw;
+            margin-top:8.889vw;
+        }
+
+        .blue{
+            margin-left:41.490vw;
+            width:35.677vw;
+            margin-top:0.889vw;
+        }
+
+        .mango{
+            margin-left:22vw;
+            width:35.677vw;
+            margin-top:0.889vw;
+        }
+
+        .footer{
+        width: 25.573vw;
+        }
+    }
+}
