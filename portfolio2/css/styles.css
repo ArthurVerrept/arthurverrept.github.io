@@ -1,0 +1,655 @@
+html, body{
+  overflow-x: hidden;
+}
+
+header{
+ height:100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+h1{
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+}
+
+li{
+  list-style: none;
+}
+
+.navList{
+  z-index: 1;
+  position: fixed;
+  right:0;
+  top:0;
+  margin-top: 1vw;
+  margin-right: 2vw;
+  text-align: right;
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nav-link{
+  color:white;
+  font-size: 2vw !important;
+}
+
+.active{
+  color:black;
+}
+
+.landingText{
+  position: absolute;
+  color:#00A878;
+}
+
+.im{
+  padding-right: 300px;
+  padding-bottom: 400px;
+}
+
+.arthur{
+  padding-left: 100px;
+  padding-bottom: 150px;
+}
+
+.what{
+  padding-left: 510px;
+  padding-top:40px;
+  font-size: 17pt;
+  font-weight: 600;
+}
+
+.outline{
+  position: absolute;
+  width:900px;
+  margin-top:100px;
+  padding-right: 200px;
+}
+
+h1[class^="blah"]{
+  position: absolute;
+  color:#922D50;
+  font-size:8.125vw;
+}
+
+.blah1{
+  margin-left:10.260vw;
+  margin-top:6vw;
+  transform: rotate(-19deg);
+}
+
+.blah2{
+  margin-left:32.760vw;
+  margin-top:6.260vw;
+  transform: rotate(-3deg);
+}
+
+.blah3{
+  margin-left:50.417vw;
+  margin-top:14.260vw;
+  transform: rotate(6deg);
+}
+
+.blah4{
+  margin-left:65.104vw;
+  margin-top:26.260vw;
+  transform: rotate(16deg);
+}
+
+[class^="aboutInfo"]{
+    color:white;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    margin-left:14vw;
+}
+
+.aboutInfoTitle{
+  font-weight: 700;
+  margin-top:28vw;
+  font-size:1.4vw;
+}
+
+.aboutInfo{
+  font-weight: 400;
+  width:46.198vw;
+  font-size:1.4vw;
+  margin-bottom:100px;
+}
+
+.prevWork{
+  padding-right:200px;
+  padding-left:200px; 
+  padding-top:2vw;
+}
+
+.workTitle{
+  width:60%;
+  color:#FAF2A1;
+  margin-top:20px;
+  display:block;
+  margin:0 auto;
+}
+
+.projectList{
+  margin-top:3vw;
+}
+
+.projectItem{
+  text-align: center;
+  color:#FAF2A1;
+  margin-bottom:20px;
+  font-size: 50px !important;
+}
+
+.projectItem:hover{
+  text-decoration: none;
+}
+
+.yogunPhoto{
+  width:90%;
+  margin-left:5%;
+}
+
+.githubLink{
+  width:50%;
+  margin-left:23%;
+  margin-top:20px;
+  margin-bottom:40px;
+}
+
+
+.formTitle{
+  color:white;
+  font-size:70px;
+  margin-top:60px;
+  margin-bottom:40px;
+  padding-left:100px;
+}
+
+::placeholder{
+  color:#DEDEDE;
+}
+
+.leftForm, .rightForm{
+  margin-right:100px;
+  margin-top:80px;
+  margin-left:50px;
+  background-color: #EC7357;
+  border:none;
+  font-size:40px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  width:71%;
+  color:white;
+}
+
+
+.messageForm{
+  margin-left:50px;
+  height:300px;
+  padding-bottom:200px;
+  padding-left:20px;
+  padding-top:10px;
+  padding-right:20px;
+  width:80%;
+  background-color: #EA907B;
+}
+
+:focus, .buttonForm:focus{
+  border-color: rgba(0, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0) inset, 0 0 8px rgba(0, 0);
+  outline: 0 none;
+}
+
+.buttonForm{
+  border: none;
+  background: none;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  color:white;
+  font-size:40px;
+  margin-left:50px;
+  margin-bottom:100px;
+  margin-right:100px;
+  animation-duration: 0.3s;
+  padding-top:20px;
+}
+
+.buttonForm:hover{
+  transform:scale(1.2);
+}
+
+.formHr{
+  margin-left:50px;
+  width:80%;
+  border-top: 3px solid #EA907B;
+}
+
+.middle, .right{
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+  color:white;
+}
+
+.left{
+  margin-top:30px;
+  margin-bottom:10px;
+  text-align: center;
+  color:white;
+}
+
+.middle.top{
+  margin-top:30px;
+}
+
+.middle.bot{
+  margin-bottom:30px;
+}
+
+.leftDiv{
+  text-align:center;
+}
+
+.leftSoc{
+  margin-right:20px;
+  height:25%;
+  margin-left:15px;
+}
+
+.right{
+  margin-top:30px;
+}
+
+.right.down{
+  display: block;
+  margin: 0 auto;
+  height:25%;
+}
+
+
+@media (max-width: 575.98px) {  
+  .im{
+    margin-bottom:-10%;
+    width:32%;
+    padding:0;
+    position: relative;
+  }
+
+  .arthur{
+    margin-bottom:-10%;
+    width:80%;
+    padding:0;
+    position: relative;
+  }
+
+  .outline{
+    position: relative;
+    width:90%;
+    padding: 0;
+    margin:0;
+  }  
+
+  .what{
+    font-size:5vw;
+    position: relative;
+    padding:0;
+    margin-top:10px;
+  }
+
+  .what br{
+    display:none;
+  }
+
+  .prevWork{
+    margin:0;
+    padding-right:0;
+    padding-left:0; 
+    padding-top:2vh;
+  }
+
+  .workTitle{
+    width:90%;
+  }
+
+  .projectItem{
+    font-size: 39px !important;
+    margin-bottom: 10px;
+  }
+
+  .githubLink{
+    width:60%;
+    margin-left:19%;
+    margin-top:20px;
+  }
+
+  h1[class^="blah"]{
+    display:none;
+  }
+
+  .aboutInfoTitle{
+    font-size: 40px;
+    margin:0;
+    margin-top:30px;
+    margin-left:20px;
+  }
+
+  .aboutInfo{
+    font-size:23px;
+    width:100%;
+    margin:0;
+    padding-left:20px;
+    padding-right:20px;
+    margin:40px 0;
+  }
+
+  .formTitle{
+    padding:0;
+    font-size:40px;
+    text-align: center;
+  }
+
+  .leftForm, .rightForm{
+    margin:0;
+    font-size:30px;
+    width:100%;
+    color:white;
+    background-color: #EA907B;
+    padding-left: 15px;
+  }
+
+  .buttonForm{
+    font-size:60px;
+    margin:0;
+    padding-top:20px;
+    padding-bottom:40px;
+    display: block;
+    margin:0 auto;
+  }
+  .buttonForm:hover{
+    transform:scale(1.0);
+  }
+
+  .leftSoc{
+    margin-top:10px;
+    height:30%;
+  }
+  
+  .middle.top{
+    margin:0;
+  }
+
+  .right{
+    margin-bottom:10px;
+  }
+
+  .right.down{
+    height:30%;
+  }
+
+  .projectItem{
+    font-size:9vw !important;
+    margin-bottom:15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  .im{
+    padding:0;
+    padding-bottom: 220px;
+    width:120px;
+  }
+  
+  .arthur{
+    width:300px;
+    padding-top:60px;
+    padding-left: 00px;
+  }
+  
+
+  .outline{
+    padding-top:0;
+    padding-bottom:100px;
+    padding-right:150px;
+    width:550px;
+  }  
+
+  .what{
+    padding-left: 390px;
+    font-size: 12pt;
+  }
+
+  .prevWork{
+    margin:0;
+    padding-right: 50px;
+    padding-left: 50px; 
+    padding-top:2vh;
+  }
+
+  .projectItem{
+    font-size: 6vw !important;
+    margin-bottom:15px;
+  }
+
+  .githubLink{
+    margin-left:20%;
+    width:60%;
+  }
+
+  .workTitle{
+    width:100%;
+  }
+
+  h1[class^="blah"]{
+    display:none;
+  }
+
+  .aboutInfoTitle{
+    font-size: 40px;
+    margin:0;
+    margin-top:30px;
+    margin-left:20px;
+  }
+
+  .aboutInfo{
+    font-size:23px;
+    width:100%;
+    margin:0;
+    padding-left:20px;
+    padding-right:20px;
+    margin:40px 0;
+  }
+
+  .formTitle{
+    padding:0;
+    text-align: center;
+  }
+
+  .leftForm, .rightForm{
+    margin-right: 0;
+  }
+
+  .formHr{
+    margin-left:5%;
+    width:89%;
+  }
+
+  .messageForm{
+    width:89%;
+    margin-left:5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .im{
+    padding:0;
+    padding-bottom: 220px;
+    width:120px;
+  }
+  
+  .arthur{
+    width:300px;
+    padding-top:60px;
+    padding-left: 00px;
+  }
+  
+
+  .outline{
+    padding-top:0;
+    padding-bottom:100px;
+    padding-right:150px;
+    width:550px;
+  }  
+
+  .what{
+    padding-left: 390px;
+    font-size: 12pt;
+  }
+
+  .prevWork{
+    margin:0;
+    padding-right:50px;
+    padding-left:50px; 
+    padding-top:2vh;
+  }
+
+  .projectItem{
+    font-size: 3.6vw !important;
+    margin-bottom:15px;
+  }
+
+  .githubLink{
+    width:60%;
+  }
+  .workTitle{
+    width:80%;
+  }
+
+  h1[class^="blah"]{
+    display:none;
+  }
+
+  .aboutInfoTitle{
+    text-align: center;
+    font-size: 40px;
+    margin:0;
+    margin-top:5vw;
+  }
+
+  .aboutInfo{
+    font-size:23px;
+    width:100%;
+    margin:0;
+    padding-left:6vw;
+    padding-right:5vw;
+    margin:5vw 0;
+    margin-bottom:10vw;
+  }
+
+  .formTitle{
+    padding:0;
+    text-align: center;
+  }
+
+  .leftForm, .rightForm{
+    margin-right: 0;
+  }
+
+  .formHr{
+    margin-left:5%;
+    width:90%;
+  }
+
+  .messageForm{
+    width:90%;
+    margin-left:5%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .im{
+    padding:0;
+    padding-bottom: 350px;
+    width:200px;
+  }
+  
+  .arthur{
+    width:500px;
+    padding-left: 000px;
+  }
+  
+
+  .outline{
+    padding-top:0;
+    padding-bottom:100px;
+    width:700px;
+  }  
+
+  .what{
+    font-size: 14pt;
+  }
+
+  .prevWork{
+    margin:0;
+    padding-right:100px;
+    padding-left:100px; 
+    padding-top:2vh;
+  }
+
+  .projectItem{
+    font-size: 3vw !important;
+    margin-bottom:15px;
+  }
+
+  .githubLink{
+    width:60%;
+  }
+
+  .aboutInfoTitle{
+    font-size: 30px;
+    margin-left:10vw;
+  }
+
+  .aboutInfo{
+    font-size:18px;
+    width:80%;
+    margin:0;
+    padding-left:10vw;
+    padding-right:20px;
+    margin-top:40px;
+    margin-bottom:100px;
+  }
+
+  .formTitle{
+    padding:0;
+    text-align: center;
+  }
+
+  .leftForm, .rightForm{
+    margin-right: 0;
+  }
+
+  .formHr{
+    margin-left:5%;
+    width:90%;
+  }
+
+  .messageForm{
+    width:90%;
+    margin-left:5%;
+  }
+
+  .buttonForm:hover{
+    transform:scale(1.0);
+  }
+}
+
+@media (min-width: 1200px) {  
+  
+}

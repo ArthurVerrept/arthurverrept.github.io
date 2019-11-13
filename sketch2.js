@@ -42,7 +42,6 @@ function preload(){
   createCanvas(1280, 720);
   //this loads the data from API into the data array
   data = loadJSON(url)
-console.log(data)
 }
 
 
