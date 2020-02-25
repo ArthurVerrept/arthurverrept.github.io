@@ -367,6 +367,7 @@ function draw() {
     else if(gotPosition == false){
       fill(240);
       rect(0,0,10000000,10000000);
+      text("Loading...",windowWidth/2, windowHeight/2);
     }
   }
 }
