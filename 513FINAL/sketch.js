@@ -145,6 +145,8 @@ function onMapLoad(){
 function draw() {
   var numIn;
   noStroke();
+  fill(10);
+  text("Loading...",windowWidth/2, windowHeight/2);
   // once map is loaded draw all these elements
   if(mapLoaded == true){
     clear();
